@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
           update.effective_message.reply_photo(
                 TIANA_IMG, caption="""*Hᴇʟʟᴏ {} !*
 ───────────────────
-× *I'ᴍ 𝙉𝙞𝙜𝙝𝙩 𝙑𝙞𝙨𝙨𝙞𝙤𝙣 𝙋𝙧𝙤𝙫𝙞𝙙𝙚𝙙 Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
+× *I'ᴍ Emo Bot Industry 𝙋𝙧𝙤𝙫𝙞𝙙𝙚𝙙 Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 × *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
 ───────────────────""".format(
                     escape_markdown(first_name),
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="࿈𝑴𝒐𝒓𝒆 𝑩o𝒕𝒔", url="https://t.me/EpicBotsSl"), 
+                  [InlineKeyboardButton(text="࿈𝑴𝒐𝒓𝒆 𝑩o𝒕𝒔", url="https://t.me/Emo_Bot_Industry"), 
                    InlineKeyboardButton(text="࿈𝑺𝒖𝒑𝒑𝒐𝒓𝒕", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -355,7 +355,7 @@ def tiana_callback_handler(update, context):
     query = update.callback_query
     if query.data == "tiana_":
         query.message.edit_text(
-            text="""𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 ࿈𝑾𝒉𝒊𝒕𝒆 𝑺𝒏𝒂𝒌𝒆 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪. 
+            text="""𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 Emo Deckstop Bot 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪. 
 ────────────────────────
 *Sᴇʟᴇᴄᴛ  Aʟʟ  Cᴏᴍᴍᴀɴᴅs  Fᴏʀ  Fᴜʟʟ  Hᴇʟᴘ  Oʀ  Sᴇʟᴇᴄᴛ  Cᴀᴛᴀɢᴏʀʏ  Fᴏʀ  Mᴏʀᴇ  Hᴇʟᴘ  Dᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ  Oɴ  Sᴇʟᴇᴄᴛᴇᴅ  Fɪᴇʟᴅs*""",
             parse_mode=ParseMode.MARKDOWN,
